@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #87CEEB, #ffffff);
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    section {
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+    }
+    h2 {
+      color: #007BFF;
+    }
+    p {
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Weather Updates</h1>
+    <p>Your daily source for weather insights</p>
+  </header>
+
+  <!-- Current Weather Section -->
+  <section>
+    <h2>Current Weather</h2>
+    <p><strong>Temperature:</strong> 25°C</p>
+    <p><strong>Condition:</strong> Sunny</p>
+    <p><strong>Humidity:</strong> 60%</p>
+    <p><strong>Wind Speed:</strong> 15 km/h</p>
+  </section>
+
+  <!-- Forecast Section -->
+  <section>
+    <h2>Weather Forecast</h2>
+    <p><strong>Monday:</strong> Partly cloudy, 24°C</p>
+    <p><strong>Tuesday:</strong> Rainy, 22°C</p>
+    <p><strong>Wednesday:</strong> Sunny, 27°C</p>
+    <p><strong>Thursday:</strong> Thunderstorms, 20°C</p>
+    <p><strong>Friday:</strong> Clear, 25°C</p>
+  </section>
+
+  <!-- Tips for the Day Section -->
+  <section>
+    <h2>Tips for the Day</h2>
+    <p>☀️ Wear sunscreen to protect your skin.</p>
+    <p>🌬️ Stay hydrated in windy weather.</p>
+    <p>☔ Carry an umbrella if there's a chance of rain.</p>
+  </section>
+</body>
+</html>
